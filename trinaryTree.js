@@ -68,7 +68,6 @@ class TrinaryTree {
         !deletedNode.mainNode.left &&
         !deletedNode.mainNode.right
       ) {
-        console.log("Single nodes with or without mid", deletedNode);
         if (deletedNode.mainNode.value == deletedNode.parentNode.value) {
           deletedNode.parentNode.mid = null;
         } else {
